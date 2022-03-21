@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #000000E6;
+    color: #ffffff;
+}
+
+/* header */
+header{
+    display: block;
+    width: 100%;
+    height: 92px;
+    position: relative;
+}
+
+header section,header nav{
+    display: inline-block;
+    position: absolute;
+}
+
+#logo-imagem{
+    left: 5%;
+    top: 30%;
+    width: 104px;
+    height: 33px;
+    background: transparent url('../img/logo.svg') 0% 0% no-repeat padding-box;
+}
+
+header nav{
+    top: 40%;
+    right: 5%;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li { 
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+header nav ul li a{
+    color: #ffffff; 
+    text-decoration: none;
+}
+
+/* section imagem home*/
+body section#imagem{
+    height: 100vh;
+    background-image: url('../img/pexels-maxime-francis-2246476.jpg');
+    background-size: cover;
+    opacity: 0.6;
+    vertical-align: middle;
+}
+
+body section#imagem div{
+    padding: 14% 5%;
+    width: 50%;    
+}
+
+body section#imagem h2{
+    text-align: left;
+    font-size: 5em;
+    margin: 1% 0;
+    letter-spacing: -4px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.btn-branco, .btn-trasparente{
+    width: 158px;
+    height: 32px;
+    padding: 3px 20px;
+    border-radius: 3px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal medium 18px/100px Circular Spotify Tx T;
+    letter-spacing: 0.54px;
+    color: #5A5A5A;
+    margin-bottom: 5%;
+}
+.btn-branco{
+    background-color: #ffffff;
+    border: none;
+}
+
+.btn-branco a{
+    color: black;
+    text-decoration: none;
+}
+
+.btn-trasparente{
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.473);
+    border: 1px solid #ffffff;
+}
+
+.btn-vermelho{
+    position: absolute;
+    width: 300px;
+    height: 55px;
+    background-color: #FF0000;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 30px;
+    border-radius: 3px;
+    border:none;
+    color: white;
+    text-decoration: none;
+}
+
+/* section galeria-termo home / termo*/
+body section#galeria-termo{
+    margin: 5% ;
+}
+
+body section#galeria-termo h3 a{
+    color: #FF0000;
+    text-decoration: none;
+}
+
+/* section descricao */
+body section#descricao{
+    display: block;
+}
+
+body section#descricao section,body section#descricao section#galeria-termo{
+    display: inline-block;
+    margin: 0;
+}
+
+body section#descricao section{
+    vertical-align: top;
+    padding: 5%;
+    width: 29%;    
+}
+
+body section#descricao section h1{
+    color: red;
+    padding-bottom: 5%;
+}
+
+body section#descricao section#galeria-termo{
+    width: 49%;
+}
+
+body section#singular{
+    width: 90%;
+    margin: 0 5%;
+}
+
+body section#singular img{
+    width: 100%;
+    height: 520px;
+}
+
+body section#singular div, body section#singular p{
+    width: 90%;
+    margin: 2% auto;
+}
+
+body section#singular div h2{
+    margin-top: 2%;
+}
+
+.play{
+    width: 100%;
+    margin-bottom: 5%;
+    background: transparent url('../img/play-light.svg') center center no-repeat padding-box;
+    z-index: 2;
+}
+
+footer{
+    background-color: #121212;
+    height: 385px;
+    position: relative;
+}
+
+footer section, footer p{
+    position: absolute;
+}
+
+footer section{
+    top: 40%;
+}
+
+footer p{
+    top:55%;
+    left:5%;
+}
+
+
+
+@media (max-width: 375px) {
+    header{
+        display: inline-block;
+        width: 100%;
+        height: 92px;
+    }
+    
+    #logo-imagem{
+        width: 104px;
+        height: 33px;
+        left:35%;
+        background: transparent url('../img/logo.svg') 0% 0% no-repeat padding-box;
+    }
+    
+    header nav{
+        position: fixed;
+        background-color: #000000E0;
+        width: 91.5%;
+        margin-bottom: -0px;
+        left: 0;
+        text-align: center;
+        z-index: 1;
+        height: 45px;
+        padding: 20px;
+    }
+
+    header nav ul li{
+        padding-top: 30px;
+    }
+
+    header nav ul li:nth-child(1){
+        background: transparent url('../img/video.svg') center 0% no-repeat padding-box;
+    }
+
+    header nav ul li:nth-child(2){
+        background: transparent url('../img/documento.svg') center 0% no-repeat padding-box;
+    }
+
+    header nav ul li:nth-child(3){
+        background: transparent url('../img/play.svg') center 0% no-repeat padding-box;
+    }
+
+    body section#imagem{
+        padding-top: 10%;
+    }
+    
+    body section#imagem{
+        height: 70vh;
+        background-image: url('../img/pexels-maxime-francis-2246476.jpg');
+        background-size: cover;
+        opacity: 0.6;
+        vertical-align: middle;
+    }
+    
+    body section#imagem h2{
+        padding: 2% 0;
+        font-size: 2em;
+    }  
+    
+    body section#descricao section#galeria-termo{
+        width: 90%;
+    }
+
+    body section#descricao section{
+        width: 90%;    
+    }
+}
