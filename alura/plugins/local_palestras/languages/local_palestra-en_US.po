@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2025-01-15 19:43-0300\n"
+"PO-Revision-Date: 2025-01-15 19:59-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ../includes\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: settings.php\n"
+
+#: settings.php:6 settings.php:16
+msgid "Local Palestra"
+msgstr "Venue Lecture"
+
+#: settings.php:35
+msgid "Configurações do Local da Palestra"
+msgstr "Lecture Venue Settings"
+
+#: settings.php:42
+msgid "Endereço"
+msgstr "Address"
+
+#: settings.php:52
+msgid "Cidade"
+msgstr "City"
+
+#: settings.php:62
+msgid "Data"
+msgstr "Date"
+
+#: settings.php:77
+msgid "Insira os dados de endereço, cidade e datas da próxima palestra"
+msgstr "Enter the address, city, and dates of the next lecture"
+
+#: settings.php:105
+msgid "Por favor, preencha o campo de endereço"
+msgstr "Please fill in the address field"
+
+#: settings.php:113
+msgid "Por favor, preencha o campo de cidade"
+msgstr "Please fill in the city field"
+
+#: settings.php:121
+msgid "Por favor, preencha o campo de data"
+msgstr "Please fill in the date field"
